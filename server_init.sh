@@ -33,3 +33,7 @@ pip3 install uwsgi;
 
 #安装django 1.11.8
 pip3 install django==1.11.8;
+cp /usr/local/python3/bin/django-admin /usr/bin/django-admin;
+
+#安装tree
+yum install tree;
