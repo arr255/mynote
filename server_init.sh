@@ -21,4 +21,15 @@ sudo make install;
 # 安装uwsgi
 yum install -y gcc* pcre-devel openssl-devel;
 yum install -y python-devel;
-yum install -y uwsgi;
+
+
+#添加环境路径
+cp /usr/local/python3/bin/python3.6 /usr/bin/python3;
+cp /usr/local/python3/bin/pip3 /usr/bin/pip3;
+
+
+#安装uwsgi
+pip3 install uwsgi;
+
+#安装django 1.11.8
+pip3 install django==1.11.8;
