@@ -21,3 +21,4 @@ sudo make install;
 # 安装uwsgi
 yum install -y gcc* pcre-devel openssl-devel;
 yum install -y python-devel;
+yum install -y uwsgi;
