@@ -1,1 +1,0 @@
-yum -y install wget gcc c++make zlib-devel readline-devel bzip2-devel ncurses-devel sqlite-devel gdbm-devel xz-devel tk-devel openssl-devel 
